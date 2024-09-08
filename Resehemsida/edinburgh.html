@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <a href="hemsida.html" class="home-button" aria-label="Home">
+                <i class="fas fa-home"></i> 
+            </a>
+            <div class="header-right">
+                <span class="like-text">If you love this city click on the heart!</span>
+                <a href="#" class="heart-button" aria-label="Like City">
+                    <i class="fas fa-heart"></i> 
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="image-container">
+                <img src="images/edinburgh.jpg" alt="Panoramic view of Edinburgh with historic buildings and green hills" class="content-image">
+                <div class="overlay-text">Discover Edinburgh</div> 
+            </div>
+        </main>
+
+        <nav class="nav">
+            <div class="nav-item">
+                <img src="images/elephant-cafe.jpg" alt="Exterior of The Elephant House café, featuring a charming and historic façade" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">The Elephant House</div>
+                    <div class="city-description">Known as one of the places where J.K. Rowling wrote parts of the Harry Potter series, this café is a popular spot for fans to visit.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav1">
+            <div class="nav-item">
+                <img src="images/castle.jpg" alt="Interior of Edinburgh Castle featuring a historic room with coats of armor" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Edinburgh Castle</div>
+                    <div class="city-description">The historic fortress offers stunning views of Edinburgh and a glimpse into Scotland's royal history.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav2">
+            <div class="nav-item">
+                <img src="images/victoria-street.jpg" alt="Colorful and curved Victoria Street with historic buildings in Edinburgh's Old Town" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Victoria Street</div>
+                    <div class="city-description">This colorful, curved street in Edinburgh's Old Town is said to have inspired the magical Diagon Alley in the Harry Potter books.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav3">
+            <div class="nav-item">
+                <img src="images/holyroodhouse.jpg" alt="Holyrood Palace with its historic façade and landscaped gardens"class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Holyrood Palace</div>
+                    <div class="city-description">Located at the end of the Royal Mile, serves as the official residence of the British monarch in Scotland.</div>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 23 City Lane, Metropolis, Country</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@cityexplore.com">info@cityexplore.com</a></p>
+                </div>
+                <div class="social-media">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons-container">
+                        <a href="https://facebook.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="javascript/handleHeartButton.js"></script>
+    </div>
+</body>
+</html>

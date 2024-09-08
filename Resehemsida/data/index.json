@@ -1,0 +1,28 @@
+{
+  "cities": [
+      {
+          "name": "Rome",
+          "image": "images/rome.jpg",
+          "description": "The eternal city, known for its ancient ruins, the Colosseum, and the Vatican.",
+          "link": "rome.html"
+      },
+      {
+          "name": "Amsterdam",
+          "image": "images/amsterdam.jpg",
+          "description": "A city of canals and bicycles, famous for its museums and vibrant culture.",
+          "link": "amsterdam.html"
+      },
+      {
+          "name": "Vienna",
+          "image": "images/vienna.jpg",
+          "description": "Austria's capital, renowned for its classical music, imperial palaces, and rich history.",
+          "link": "vienna.html"
+      },
+      {
+          "name": "Edinburgh",
+          "image": "images/edinburgh.jpg",
+          "description": "A historic city with a medieval old town, famous for its castle and annual festivals.",
+          "link": "edinburgh.html"
+      }
+  ]
+}

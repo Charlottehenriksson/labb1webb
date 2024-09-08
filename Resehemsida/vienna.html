@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <a href="hemsida.html" class="home-button" aria-label="Home">
+                <i class="fas fa-home"></i> 
+            </a>
+            <div class="header-right">
+                <span class="like-text">If you love this city click on the heart!</span>
+                <a href="#" class="heart-button" aria-label="Like City">
+                    <i class="fas fa-heart"></i> 
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="image-container">
+                <img src="images/vienna.jpg" alt="Grand view of Vienna with its imperial architecture and historical landmarks" class="content-image">
+                <div class="overlay-text">Discover Vienna</div> 
+            </div>
+        </main>
+
+        <nav class="nav">
+            <div class="nav-item">
+                <img src="images/hofburg.jpg" alt="A grand complex with Gothic, Renaissance, and Baroque styles, featuring ornate façades" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Hofburg Palace</div>
+                    <div class="city-description">The former imperial palace, now housing several museums, the Imperial Chapel, and the offices of the President of Austria.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav1">
+            <div class="nav-item">
+                <img src="images/national-library.jpg" alt="Opulent Baroque architecture with grand columns and a dome; richly decorated interior" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Austrian National Library</div>
+                    <div class="city-description">One of the world’s most beautiful libraries, renowned for its impressive Baroque architecture, vast collection of books.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav2">
+            <div class="nav-item">
+                <img src="images/mozart.jpg" alt="Charming yellow Viennese building with a classic façade and period details" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Mozart's Residence</div>
+                    <div class="city-description">Visit the Mozarthaus Vienna, where Wolfgang Amadeus Mozart lived and composed some of his most famous works.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav3">
+            <div class="nav-item">
+                <img src="images/schonbrunn-palace.jpg" alt="Elegant Baroque palace with golden accents, surrounded by vast, manicured gardens" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Schönbrunn Palace</div>
+                    <div class="city-description">A magnificent Baroque palace with opulent rooms, extensive gardens, and a history as the summer residence of the Habsburgs.</div>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 23 City Lane, Metropolis, Country</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@cityexplore.com">info@cityexplore.com</a></p>
+                </div>
+                <div class="social-media">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons-container">
+                        <a href="https://facebook.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="javascript/handleHeartButton.js"></script>
+    </div>
+</body>
+</html>

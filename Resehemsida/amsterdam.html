@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <a href="hemsida.html" class="home-button" aria-label="Home">
+                <i class="fas fa-home"></i> 
+            </a>
+            <div class="header-right">
+                <span class="like-text">If you love this city click on the heart!</span>
+                <a href="#" class="heart-button" aria-label="Like City">
+                    <i class="fas fa-heart"></i> 
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="image-container">
+                <img src="images/amsterdam.jpg" alt="View of Amsterdam's iconic canals and historic architecture" class="content-image">
+                <div class="overlay-text">Discover Amsterdam</div> 
+            </div>
+        </main>
+
+        <nav class="nav">
+            <div class="nav-item">
+                <img src="images/canals.jpg" alt="Picturesque view of Amsterdam's canal system with historic houses" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">City Canals</div>
+                    <div class="city-description">Amsterdam is famous for its picturesque canal system and historic houses lining the waterways.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav1">
+            <div class="nav-item">
+                <img src="images/van-gogh.jpg" alt="Vincent van Gogh's Starry Night painting, featuring a swirling night sky" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Van Gogh Museum</div>
+                    <div class="city-description">Dedicated to the works of Vincent van Gogh, featuring the largest collection of his paintings and drawings.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav2">
+            <div class="nav-item">
+                <img src="images/windmill.jpg" alt="Traditional Dutch windmill located in Amsterdam" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Historic Windmills</div>
+                    <div class="city-description">The city also has windmill-themed museums, where visitors can learn about the historical importance of these iconic structures.</div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="nav3">
+            <div class="nav-item">
+                <img src="images/flower-market.jpg" alt="Colorful display of flowers at Amsterdam's Bloemenmarkt" class="nav-image">
+                <div class="nav-text">
+                    <div class="city-name">Flower Market</div>
+                    <div class="city-description">Bloemenmarkt is a floating flower market where visitors can admire and purchase a wide variety of tulips and other flowers.</div>
+                </div>
+            </div>
+        </nav>
+
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 23 City Lane, Metropolis, Country</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@cityexplore.com">info@cityexplore.com</a></p>
+                </div>
+                <div class="social-media">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons-container">
+                        <a href="https://facebook.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/CityExplore" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        <script src="javascript/handleHeartButton.js"></script>
+    </div>
+</body>
+</html>
