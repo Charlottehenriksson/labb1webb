@@ -45,6 +45,31 @@ body {
     color: rgb(255, 190, 49); 
 }
 
+.profile-button {
+    position: absolute;
+    top: 0px; 
+    right: 40px; 
+    font-size: 38px; 
+    color: white; 
+    text-decoration: none;
+}
+
+.profile-button i {
+    margin: 0;
+}
+
+.profile-button:hover {
+    color: rgb(255, 190, 49); 
+}
+
+.user-name {
+    font-size: 18px; 
+    margin-top: 10px;
+    color: white;
+    margin-right: 100px; 
+    font-style: italic;
+}
+
 .header-right {
     position: absolute;
     top: 0px; 
@@ -82,7 +107,6 @@ body {
 .nav {
     position: relative; 
     overflow: hidden; 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     height: auto;
     margin: 0px; 
 }
@@ -266,7 +290,7 @@ body {
         grid-template-rows: auto auto auto auto;
     }
 
-    .header, .main-content, .footer {
+    .header, .main-content, .footer, .nav {
         grid-column: 1 / 2; 
     }
 }
